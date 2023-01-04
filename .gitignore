@@ -1,6 +1,8 @@
 # folders
 export/
-
+yolov7/
+tensorrt-python/
+American-Sign-Language-Letters-2/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
