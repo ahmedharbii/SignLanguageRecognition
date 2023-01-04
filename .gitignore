@@ -3,6 +3,11 @@ export/
 yolov7/
 tensorrt-python/
 American-Sign-Language-Letters-2/
+*.mp4
+*.jpg
+*.txt
+yolov7/American-Sign-Language-Letters-3/
+yolov7/American-Sign-Language-Letters-4/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

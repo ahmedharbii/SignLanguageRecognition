@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Requirement already satisfied: onnx in /home/mrblack/pyenvs/venv_signLanguage/lib/python3.8/site-packages (1.13.0)
+Requirement already satisfied: numpy>=1.16.6 in /home/mrblack/pyenvs/venv_signLanguage/lib/python3.8/site-packages (from onnx) (1.23.5)
+Requirement already satisfied: typing-extensions>=3.6.2.1 in /home/mrblack/pyenvs/venv_signLanguage/lib/python3.8/site-packages (from onnx) (4.4.0)
+Requirement already satisfied: protobuf<4,>=3.20.2 in /home/mrblack/pyenvs/venv_signLanguage/lib/python3.8/site-packages (from onnx) (3.20.3)
