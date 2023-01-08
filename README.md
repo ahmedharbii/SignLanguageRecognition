@@ -1,5 +1,43 @@
 # SignLanguage_YOLOv7
  Deploying a YOLOv7 detecting American Sign Language (ASL) on Intel RealSense
+
+
+# Scripts:
+Training YOLOv7:
+
+Open the notebook:
+```
+Sign_Language_Training_on_Custom_Data.ipynb
+```
+
+```
+!python train.py --batch 8 --epochs 200 --data /yolov7/American-Sign-Language-Letters/data.yaml \
+--weights '/yolov7/runs/train/exp11/weights/best.pt' \
+--device 0 --img 640 640 --cfg '/cfg/training/yolov7.yaml'
+```
+
+Training Modified ResNet18: 
+```
+image_classification.ipynb
+```
+
+Testing yolov7 - Camera or Image upload:
+```
+test_yolo.py
+```
+Testing Modified Resnet - Camera or Image upload:
+```
+test_resnet.py
+```
+
+
+# Required Libraries:
+(Note some of them might not be needed depending on the application)
+
+inside yolov7 jupyter notebook, run the command to install dependencies from Requirements.txt.
+
+
+
  
  # pyrealsense2
  ```
