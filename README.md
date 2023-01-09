@@ -1,4 +1,4 @@
-# SignLanguage_YOLOv7
+# Sign Language Project
  Deploying a YOLOv7 detecting American Sign Language (ASL) on Intel RealSense
 
 
